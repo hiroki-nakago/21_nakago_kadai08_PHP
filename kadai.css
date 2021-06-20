@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.center{
+    text-align: center;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.myMap{
+    width: 700px;
+}
+
+.contents_wrapper{
+    display: flex;   
+}
+
+/* メモ用CSS */
+    .memo_wrapper{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .memo_title{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    /* ボタン用CSS */
+        .btn {
+            font-size: 20px;
+            margin: 0 20px 0 50px;
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn:active{
+            border:solid white;
+            opacity:0.8;
+        }
+        .btn:hover{
+            opacity:0.8;
+        }
+
+    /* CSS styles used by custom infobox template */
+    .customInfobox {
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        max-width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size:12px;
+        pointer-events:auto !important;
+    }
+
+        .customInfobox .title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
